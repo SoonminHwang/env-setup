@@ -34,3 +34,14 @@ If you got the error message like '~/libopencv_highgui.so undefined reference to
 ```
 conda remove libtiff
 ```
+
+
+## Require python packages
+0. scikit-image
+0. protobuf
+0. lmdb
+
+```
+conda install scikit-image protobuf
+pip install lmdb
+```

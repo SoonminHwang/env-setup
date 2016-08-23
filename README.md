@@ -22,3 +22,15 @@ For a dual monitor setup, make the current monitor slightly brighter(see [URL](h
 When switching between applications (Alt-Tab), accidentally swithching to the `Show Desktop` icon will minimize all applications.
 
 Follow the steps on the [ask ubuntu answer](http://askubuntu.com/questions/167263/how-can-i-remove-show-desktop-from-the-alt-tab-application-switcher) to remove the show desktop icon.
+
+
+## Latest version of caffe & Anaconda conflict
+In caffe directory,
+```
+make -j8 all
+```
+
+If you got the error message like '~/libopencv_highgui.so undefined reference to TIFF@blarblar', then do the following.
+```
+conda remove libtiff
+```

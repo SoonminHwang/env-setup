@@ -32,9 +32,10 @@ If you got the error message like '~/libopencv_highgui.so undefined reference to
 0. lmdb
 
 
+```
 	conda install scikit-image protobuf
 	pip install lmdb
-
+```
 
 ## Creating a LMDB database in python for caffe
 Gustav Larsson's blug [URL](https://deepdish.io/2015/04/28/creating-lmdb-in-python/)

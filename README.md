@@ -39,3 +39,10 @@ pip install lmdb
 
 ## Creating a LMDB database in python for caffe
 Gustav Larsson's blug [URL](https://deepdish.io/2015/04/28/creating-lmdb-in-python/)
+
+
+## Install opencv2 for python
+``
+sudo apt-get install python-opencv
+conda install opencv
+``
